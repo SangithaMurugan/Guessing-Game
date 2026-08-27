@@ -129,8 +129,9 @@ Code Structure:
 
 The code is organized into distinct sections that handle various aspects of the game, including setup, interaction options, the scoreboard, and the multimedia layout. Every feature serves a unique purpose, keeping the software simple to manage and understand.
 
-1.Class: Form 1
-2.Attributes:
+## 1.Class: Form 1
+
+## 2.Attributes:
 A.Game Configuration
 - timesToPlay: Determines the number of times the player can play (default: 5).
 - maxPlayLimit: the highest number of rounds permitted (default: 25).
@@ -144,7 +145,8 @@ B.Game Variables
 - currentNickname: keeps the player's nickname.
 - random: provides random numbers.
 - soundPlayer: Performs sound effects throughout the game.
-3.Methods:
+
+## 3.Methods:
 A.Game Setup and Flow
 - Form1(): A constructor that creates the form and begins the game.
 - InitializeGame() creates the User Interface (UI) and starts the initial game.
@@ -168,15 +170,15 @@ D.Button Event Handlers (User Interaction)
 - btnSaveSettings_Click(): Saves the player settings.
 - btnMenuFromSettings_Click(): Returns to the menu.
 - btnMenuFromScore_Click(): Returns to the menu on the score page.
-E.Scoreboard (Nested Class)
-DisplayScoreStatistics() sorts and presents the scoreboard in sequence.
-F.Multimedia 
+## E.Scoreboard (Nested Class)
+- DisplayScoreStatistics() sorts and presents the scoreboard in sequence.
+## F.Multimedia 
 - PlaySound(string soundName) plays a sound effect (.wav files). 
 - ShowGif(string gifName): Shows GIF animations triggered by game events. 
-G.Keyboard Support 
+## G.Keyboard Support 
 - NicknameTextBox_KeyPress(): Accepts only letters and the Enter key for submission.
 - GuessTextBox_KeyPress(): Accepts just numbers and the Enter key for submission. 
-H.Score Entry (Nested Class) 
+## H.Score Entry (Nested Class) 
 - It saves each player's name and number of attempts. 
 - Used to create and display the scoreboard.
 Programming Structures Used (Variables, Loops, Conditionals, Functions)

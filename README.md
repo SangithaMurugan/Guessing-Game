@@ -192,3 +192,12 @@ Code Descriptions
 - Every assumption is validated by if-else declarations.
 - Sounds and Graphics Interchange Format (GIFs) are played depending on the guess choice.
 - Scores are kept and shown in a sorted scoreboard.
+
+## Sample Output
+<p align="center">
+  <img src="img.png" width="300"><br>
+  <img src="img2.png" width="300"><br>
+  <img src="img3.png" width="300"><br>
+  <img src="img4.png" width="300"><br>
+  <img src="img5.png" width="300">
+</p>

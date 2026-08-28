@@ -158,7 +158,7 @@ B.User Interface (UI) Styling
 - StyleLabel(): Prepares labels to appear.
 - StyleTextBox() styles text boxes for input from users.
 C.Panel Control
-- ShowPanel(): Reveals a single panel while obscuring others.
+- ShowPanel(): Reveals a single panel while obscuring others.
 D.Button Event Handlers (User Interaction)
 - btnStartGame_Click() starts the game.
 - btnSettings_Click() displays the settings menu.
